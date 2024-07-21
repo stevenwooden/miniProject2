@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
+
 ul {
+    font-family: 'Anton SC', sans-serif;
     font-size: 30px;
     
     /* margin-left: 20%; */
 }
 li.a{
     margin: 15%;
+
 }
 
 .footer {
@@ -17,11 +23,12 @@ li.a{
 }
 .home-image{
     width: 100%;
-    height: auto;
+ 
     /* margin-top: 5%; */
 }
 .welcome {
     font-size: 5vw;
+    font-family: 'Anton SC', sans-serif;
     /* margin-top: 10%;
     margin-left: 10%; */
     margin: 5%;
@@ -29,14 +36,15 @@ li.a{
 }
 .message {
     font-size: 2vw ;
-    margin: 20px;
+    margin: 10px;
     padding: 30px
 }
 .feature {
     width: 100%;
-    margin: auto;
+    
     border: #721CB8 solid 2px;
     padding: 2%;
+    margin-bottom: 2%;
 
     /* margin-left: 10%; */
 }
@@ -44,26 +52,35 @@ li.a{
     margin: 10%;
 
 } */
-.main-index {
-    margin-top: 10%;
+/* .main-index {
+    margin-top:10% %;
     
-}
+} */
 .blog {
     margin-top: 10%;
 }
 .background{
     background-color: #721CB8;
     color: white;
+    padding: 5%;
 }
 .itemImage{
 
     border: solid thick 1px purple;
 }
+
+.linkTitle {
+    font-family: 'Anton SC', sans-serif;
+    margin: 4%;
+    font-size: 2vw;  
+    color: #721CB8;  
+}
 @media screen and (max-width: 992px){
     .feature {
         display: block;
-        width: 75%; 
+        width: 60%; 
         margin:  auto;
+        margin-bottom: 2%;
     }
     
 }

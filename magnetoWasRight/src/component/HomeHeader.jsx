@@ -1,13 +1,11 @@
-import HomeImage from "./HomeImage";
+
 
 function HomeHeader() {
     return (
         
         <main className="main-index">
-            <div>
-                <HomeHeader/>
-            </div>
-            <div className="row container background">        
+            
+            <div className="row background">        
                 <div className="col-lg-6">
                     <h1 className="welcome">Welcome All Fellow Mutants and Defenders of Mutantkind</h1>  
                 </div>
