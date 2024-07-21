@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 
 function CardTemplate({character}) {
     return(
-    <Card s>
+    <Card >
         <Card.Img src={character.image} fluid variant="top" style={{height:'16rem'}} alt={character.alias}/>
         <Card.Body style = {{textAlign:'center'}}>
             <Card.Title>{character.alias}</Card.Title>

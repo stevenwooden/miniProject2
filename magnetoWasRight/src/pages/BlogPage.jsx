@@ -7,8 +7,10 @@ export default function BlogPage(){
 
     return(
         <main>
-        <h1 style={{fontSize: "80px", marginTop: "5%"}}>Blog</h1>
-        <p>Catchup on the latest News and Entertainment</p>
+        <div className="background">
+        <h1 style={{fontSize: "80px", marginTop: "5%", fontFamily:"Anton SC, sans serif"}}>Spotlight on Mutants</h1>
+        <h4 >Catchup on the latest News and Entertainment</h4>
+        </div>
         <Container>
         <BlogVideo
             video="https://www.youtube.com/embed/pv3Ss8o9gGQ"
