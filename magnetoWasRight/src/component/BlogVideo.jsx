@@ -15,7 +15,7 @@ function BlogVideo({image, video, caption, buttonText}){
 
     if (currentvideo){
         content = (
-            <iframe width="811" height="456" src={currentvideo} title="Marvel Animation&#39;s X-Men &#39;97 | Official Trailer | Disney+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe className='blogVideo' width="811" height="456" src={currentvideo} title="Marvel Animation&#39;s X-Men &#39;97 | Official Trailer | Disney+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         );
 

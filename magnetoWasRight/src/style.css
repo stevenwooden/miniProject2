@@ -31,7 +31,10 @@ h1 {
     font-size: 5vw;
     font-family: 'Anton SC', sans-serif;
 }
-
+.charList {
+    margin-left:10%;
+    margin-top: 5%
+}
 
 .welcome{    /* margin-top: 10%;
     margin-left: 10%; */
@@ -67,6 +70,7 @@ h1 {
     background-color: #721CB8;
     color: white;
     padding: 3%;
+    text-align: center;
 }
 .itemImage{
 
@@ -102,5 +106,8 @@ h1 {
         margin:  auto;
         margin-bottom: 2%;
     }
+    
+}
+@media screen {
     
 }

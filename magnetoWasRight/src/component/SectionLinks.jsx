@@ -13,6 +13,7 @@ function SectionLinks() {
                     <h2>CHECKOUT OUR CONTENT!</h2>
                 </div>
                 <div className=" section-index row ">
+                
                 <div className="col-lg-4">
                     <Link className="image-link" to="/blog">
                     <Image src= "/assets/images/blogHome.png" fluid rounded alt="blog home" className="blogIimage feature"/>
